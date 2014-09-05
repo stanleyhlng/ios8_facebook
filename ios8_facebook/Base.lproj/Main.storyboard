@@ -23,9 +23,13 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90000000000000002" green="0.90000000000000002" blue="0.90000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Tpj-dI-Brg"/>
+                    <connections>
+                        <outlet property="contentImageView" destination="Rf9-Ik-KZe" id="9gw-XP-J9R"/>
+                        <outlet property="scrollView" destination="vep-ob-Tgq" id="xL2-zS-Lhr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cd-Ov-nSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -50,9 +54,13 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90000000000000002" green="0.90000000000000002" blue="0.90000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ieL-cq-imo"/>
+                    <connections>
+                        <outlet property="contentImageView" destination="GE8-gH-le2" id="aVW-oR-yMY"/>
+                        <outlet property="scrollView" destination="yUB-DK-IHs" id="UKS-VC-AgQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfb-9d-goq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,9 +85,13 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90000000000000002" green="0.90000000000000002" blue="0.90000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vNQ-ZW-uTw"/>
+                    <connections>
+                        <outlet property="contentImageView" destination="duU-pT-Aju" id="pCq-zv-KvJ"/>
+                        <outlet property="scrollView" destination="1en-nC-z8T" id="xxK-3d-uDX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qKE-o6-G1v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -104,9 +116,13 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90000000000000002" green="0.90000000000000002" blue="0.90000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="QJp-lY-vCa"/>
+                    <connections>
+                        <outlet property="contentImageView" destination="csv-Lw-IxM" id="UK6-M6-bhJ"/>
+                        <outlet property="scrollView" destination="o3C-Pa-qlR" id="6aV-B2-nVg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bK7-UM-dfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -131,9 +147,13 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90000000000000002" green="0.90000000000000002" blue="0.90000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="HzW-wT-XOP"/>
+                    <connections>
+                        <outlet property="contentImageView" destination="zSd-jL-qGh" id="h3k-yI-VlA"/>
+                        <outlet property="scrollView" destination="ePe-P3-37g" id="VVN-2k-sKK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FvB-v7-Qd3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,13 +10,19 @@ import UIKit
 
 class NotificationsViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var contentImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         println("NotificationsViewController - viewDidLoad")
+        
+        contentImageView.sizeToFit()
+        scrollView.contentSize = CGSize(width: contentImageView.frame.width, height: contentImageView.frame.height)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
