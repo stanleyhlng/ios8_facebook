@@ -17,6 +17,9 @@
 		20E938A019B9820B00F247CC /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E9389F19B9820B00F247CC /* MessagesViewController.swift */; };
 		20E938A219B9823300F247CC /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E938A119B9823300F247CC /* NotificationsViewController.swift */; };
 		20E938A419B9825B00F247CC /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E938A319B9825B00F247CC /* MoreViewController.swift */; };
+		20E938AC19B993D000F247CC /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E938AB19B993D000F247CC /* StatusViewController.swift */; };
+		20E938AE19B9944100F247CC /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E938AD19B9944100F247CC /* PhotoViewController.swift */; };
+		20E938B019B9949A00F247CC /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E938AF19B9949A00F247CC /* CheckInViewController.swift */; };
 		864B9F598DBE4FF9BA62D096 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40941CE765F349249A0D3A01 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,9 @@
 		20E9389F19B9820B00F247CC /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		20E938A119B9823300F247CC /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		20E938A319B9825B00F247CC /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		20E938AB19B993D000F247CC /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		20E938AD19B9944100F247CC /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		20E938AF19B9949A00F247CC /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		40941CE765F349249A0D3A01 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,11 +135,14 @@
 		20E9389319B9683F00F247CC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				20E938AA19B991C300F247CC /* Check In */,
 				20E9389A19B97FF700F247CC /* Feed */,
 				20E9389719B9688900F247CC /* Messages */,
 				20E9389919B968AC00F247CC /* More */,
 				20E9389819B968A500F247CC /* Notifications */,
+				20E938A719B9914C00F247CC /* Photo */,
 				20E9389619B9687F00F247CC /* Requests */,
+				20E938A619B9913E00F247CC /* Status */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -176,6 +185,30 @@
 				20E9389B19B9800300F247CC /* FeedViewController.swift */,
 			);
 			name = Feed;
+			sourceTree = "<group>";
+		};
+		20E938A619B9913E00F247CC /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				20E938AB19B993D000F247CC /* StatusViewController.swift */,
+			);
+			name = Status;
+			sourceTree = "<group>";
+		};
+		20E938A719B9914C00F247CC /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				20E938AD19B9944100F247CC /* PhotoViewController.swift */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		20E938AA19B991C300F247CC /* Check In */ = {
+			isa = PBXGroup;
+			children = (
+				20E938AF19B9949A00F247CC /* CheckInViewController.swift */,
+			);
+			name = "Check In";
 			sourceTree = "<group>";
 		};
 		C439FFE15A344654B76610BC /* Frameworks */ = {
@@ -320,10 +353,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E938AC19B993D000F247CC /* StatusViewController.swift in Sources */,
 				20E938A419B9825B00F247CC /* MoreViewController.swift in Sources */,
 				20E938A019B9820B00F247CC /* MessagesViewController.swift in Sources */,
 				20CFE57319B9588000A0AE81 /* ViewController.swift in Sources */,
+				20E938B019B9949A00F247CC /* CheckInViewController.swift in Sources */,
 				20E9389C19B9800300F247CC /* FeedViewController.swift in Sources */,
+				20E938AE19B9944100F247CC /* PhotoViewController.swift in Sources */,
 				20E938A219B9823300F247CC /* NotificationsViewController.swift in Sources */,
 				20E9389E19B981C800F247CC /* RequestsViewController.swift in Sources */,
 				20CFE57119B9588000A0AE81 /* AppDelegate.swift in Sources */,
