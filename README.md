@@ -38,7 +38,7 @@ The purpose of this homework is to use Xcode to explore views and navigation of 
   * Tapping the comment button from the home feed should push the story detail view and automatically select the text field.
 
 ## Time spent
-x hours spent in total
+6 hours spent in total
 
 ## Libraries
 ```
