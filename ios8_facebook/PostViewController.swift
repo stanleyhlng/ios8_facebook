@@ -17,6 +17,8 @@ class PostViewController: UIViewController {
     @IBOutlet weak var commentView: UIView!
     @IBOutlet weak var textField: UITextField!
     
+    var autoSelected: Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -41,7 +43,9 @@ class PostViewController: UIViewController {
         commentView.frame.origin.y = view.frame.height - 48 - commentView.frame.height;
 
         // config text field
-        //textField.becomeFirstResponder()
+        if (autoSelected) {
+            textField.becomeFirstResponder()
+        }
         
         // config keyboard show / hide observer
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "willShowKeyboard:", name: UIKeyboardWillShowNotification, object: nil)
