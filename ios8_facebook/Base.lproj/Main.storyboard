@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Requests View Controller-->
         <scene sceneID="nue-fI-uKz">
             <objects>
-                <viewController id="w5W-Bx-GzO" sceneMemberID="viewController">
+                <viewController id="w5W-Bx-GzO" customClass="RequestsViewController" customModule="ios8_facebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sto-4Z-8Zx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,10 +31,10 @@
             </objects>
             <point key="canvasLocation" x="-954" y="1085"/>
         </scene>
-        <!--View Controller-->
+        <!--Messages View Controller-->
         <scene sceneID="DDQ-fN-fed">
             <objects>
-                <viewController id="4nl-rF-sul" sceneMemberID="viewController">
+                <viewController id="4nl-rF-sul" customClass="MessagesViewController" customModule="ios8_facebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wms-Km-1Nl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="messages" id="GE8-gH-le2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="messages" id="GE8-gH-le2">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="-566" y="1079"/>
         </scene>
-        <!--View Controller-->
+        <!--Notifications View Controller-->
         <scene sceneID="u63-V2-b7C">
             <objects>
-                <viewController id="8kZ-Co-zzy" sceneMemberID="viewController">
+                <viewController id="8kZ-Co-zzy" customClass="NotificationsViewController" customModule="ios8_facebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kgT-q1-jEC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="-182" y="1085"/>
         </scene>
-        <!--View Controller-->
+        <!--More View Controller-->
         <scene sceneID="4V2-Pt-2KW">
             <objects>
-                <viewController id="2pz-uf-Vf5" sceneMemberID="viewController">
+                <viewController id="2pz-uf-Vf5" customClass="MoreViewController" customModule="ios8_facebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gIg-d6-eIa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,10 +112,10 @@
             </objects>
             <point key="canvasLocation" x="202" y="1085"/>
         </scene>
-        <!--View Controller-->
+        <!--Feed View Controller-->
         <scene sceneID="9YZ-fh-IIf">
             <objects>
-                <viewController id="ENY-3T-Vgr" sceneMemberID="viewController">
+                <viewController id="ENY-3T-Vgr" customClass="FeedViewController" customModule="ios8_facebook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BFv-Cf-Edh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,11 +180,11 @@
             </objects>
             <point key="canvasLocation" x="-1330" y="317"/>
         </scene>
-        <!--Request-->
+        <!--Requests-->
         <scene sceneID="dBN-uv-xmy">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="97r-Na-6Ie" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Request" image="requests_tab" id="5yU-d3-NXO"/>
+                    <tabBarItem key="tabBarItem" title="Requests" image="requests_tab" id="5yU-d3-NXO"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ODA-qU-S8S">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
