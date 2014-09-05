@@ -12,6 +12,7 @@ class PostViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var contentImageView: UIImageView!
+    @IBOutlet weak var likeButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,8 +20,15 @@ class PostViewController: UIViewController {
         // Do any additional setup after loading the view.
         println("PostViewController - viewDidLoad")
         
+        // config content view
         contentImageView.sizeToFit()
+        
+        // config scroll view
         scrollView.contentSize = CGSize(width: contentImageView.frame.width, height: contentImageView.frame.height + 56)
+        
+        // config like button
+        likeButton.frame.origin.x = 18
+        likeButton.frame.origin.y = 358
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,6 +40,10 @@ class PostViewController: UIViewController {
         navigationController?.popViewControllerAnimated(true)
     }
 
+    @IBAction func onLike(sender: UIButton) {
+        likeButton.selected = !likeButton.selected
+    }
+    
     /*
     // MARK: - Navigation
 
