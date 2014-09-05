@@ -20,7 +20,7 @@ class NotificationsViewController: UIViewController {
         println("NotificationsViewController - viewDidLoad")
         
         contentImageView.sizeToFit()
-        scrollView.contentSize = CGSize(width: contentImageView.frame.width, height: contentImageView.frame.height)
+        scrollView.contentSize = CGSize(width: contentImageView.frame.width, height: contentImageView.frame.height + 56)
     }
     
     override func didReceiveMemoryWarning() {
