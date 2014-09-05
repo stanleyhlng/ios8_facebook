@@ -13,6 +13,7 @@ class PostViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var contentImageView: UIImageView!
     @IBOutlet weak var likeButton: UIButton!
+    @IBOutlet weak var commentButton: UIButton!
     @IBOutlet weak var commentView: UIView!
     @IBOutlet weak var textField: UITextField!
     
@@ -31,6 +32,10 @@ class PostViewController: UIViewController {
         // config like button
         likeButton.frame.origin.x = 18
         likeButton.frame.origin.y = 358
+        
+        // config comment button
+        commentButton.frame.origin.x = 111
+        commentButton.frame.origin.y = 358
         
         // config comment bar image view
         commentView.frame.origin.y = view.frame.height - 48 - commentView.frame.height;
@@ -76,9 +81,19 @@ class PostViewController: UIViewController {
     }
 
     @IBAction func onLike(sender: UIButton) {
+
+        println("PostViewController - onLike")
+
         likeButton.selected = !likeButton.selected
     }
-    
+
+    @IBAction func onComment(sender: UIButton) {
+
+        println("PostViewController - onComment")
+
+        textField.becomeFirstResponder()
+    }
+
     @IBAction func onTap(sender: UITapGestureRecognizer) {
         
         println("PostViewController - onTap")
