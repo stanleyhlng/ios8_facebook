@@ -20,6 +20,7 @@
 		20E938AC19B993D000F247CC /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E938AB19B993D000F247CC /* StatusViewController.swift */; };
 		20E938AE19B9944100F247CC /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E938AD19B9944100F247CC /* PhotoViewController.swift */; };
 		20E938B019B9949A00F247CC /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E938AF19B9949A00F247CC /* CheckInViewController.swift */; };
+		20E938B319B9983E00F247CC /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E938B219B9983E00F247CC /* PostViewController.swift */; };
 		864B9F598DBE4FF9BA62D096 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40941CE765F349249A0D3A01 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		20E938AB19B993D000F247CC /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		20E938AD19B9944100F247CC /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		20E938AF19B9949A00F247CC /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		20E938B219B9983E00F247CC /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		40941CE765F349249A0D3A01 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,6 +143,7 @@
 				20E9389919B968AC00F247CC /* More */,
 				20E9389819B968A500F247CC /* Notifications */,
 				20E938A719B9914C00F247CC /* Photo */,
+				20E938B119B9982700F247CC /* Post */,
 				20E9389619B9687F00F247CC /* Requests */,
 				20E938A619B9913E00F247CC /* Status */,
 			);
@@ -209,6 +212,14 @@
 				20E938AF19B9949A00F247CC /* CheckInViewController.swift */,
 			);
 			name = "Check In";
+			sourceTree = "<group>";
+		};
+		20E938B119B9982700F247CC /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				20E938B219B9983E00F247CC /* PostViewController.swift */,
+			);
+			name = Post;
 			sourceTree = "<group>";
 		};
 		C439FFE15A344654B76610BC /* Frameworks */ = {
@@ -363,6 +374,7 @@
 				20E938A219B9823300F247CC /* NotificationsViewController.swift in Sources */,
 				20E9389E19B981C800F247CC /* RequestsViewController.swift in Sources */,
 				20CFE57119B9588000A0AE81 /* AppDelegate.swift in Sources */,
+				20E938B319B9983E00F247CC /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
