@@ -11,6 +11,18 @@
                     <view key="view" contentMode="scaleToFill" id="Sto-4Z-8Zx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vep-ob-Tgq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" id="Rf9-Ik-KZe">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Tpj-dI-Brg"/>
@@ -26,6 +38,18 @@
                     <view key="view" contentMode="scaleToFill" id="Wms-Km-1Nl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yUB-DK-IHs">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="messages" id="GE8-gH-le2">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ieL-cq-imo"/>
@@ -41,6 +65,18 @@
                     <view key="view" contentMode="scaleToFill" id="kgT-q1-jEC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="1en-nC-z8T">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notifications" id="duU-pT-Aju">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="vNQ-ZW-uTw"/>
@@ -56,6 +92,18 @@
                     <view key="view" contentMode="scaleToFill" id="gIg-d6-eIa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="o3C-Pa-qlR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" id="csv-Lw-IxM">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="QJp-lY-vCa"/>
@@ -71,6 +119,18 @@
                     <view key="view" contentMode="scaleToFill" id="BFv-Cf-Edh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ePe-P3-37g">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_feed" id="zSd-jL-qGh">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="HzW-wT-XOP"/>
@@ -104,7 +164,7 @@
         <!--News Feed-->
         <scene sceneID="Y6k-p0-fEq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="r4m-QA-30M" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="r4m-QA-30M" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="News Feed" image="feed_tab" id="sOS-zC-DSQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bTx-fy-sBt">
@@ -123,7 +183,7 @@
         <!--Request-->
         <scene sceneID="dBN-uv-xmy">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="97r-Na-6Ie" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="97r-Na-6Ie" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Request" image="requests_tab" id="5yU-d3-NXO"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ODA-qU-S8S">
@@ -142,7 +202,7 @@
         <!--Messages-->
         <scene sceneID="oh7-DT-LTd">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hkj-UE-LAL" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="hkj-UE-LAL" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Messages" image="messages_tab" id="alq-y2-qSL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="suH-qr-Jkn">
@@ -161,7 +221,7 @@
         <!--Notifications-->
         <scene sceneID="AjJ-xy-Xvc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bh5-YH-ckf" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="bh5-YH-ckf" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Notifications" image="notifications_tab" id="rAL-xN-kzt"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="S5c-8Y-aAS">
@@ -180,7 +240,7 @@
         <!--More-->
         <scene sceneID="2xP-6r-joi">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="piN-DA-zRF" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="piN-DA-zRF" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="More" image="more_tab" id="8Pg-lL-1Si"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="baq-W3-QNV">
@@ -199,10 +259,15 @@
     </scenes>
     <resources>
         <image name="feed_tab" width="27" height="27"/>
+        <image name="home_feed" width="320" height="1025"/>
+        <image name="messages" width="320" height="460"/>
         <image name="messages_tab" width="27" height="27"/>
         <image name="more_tab" width="27" height="27"/>
+        <image name="notifications" width="320" height="818"/>
         <image name="notifications_tab" width="27" height="27"/>
+        <image name="people" width="320" height="1006"/>
         <image name="requests_tab" width="27" height="27"/>
+        <image name="settings" width="320" height="1800"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
