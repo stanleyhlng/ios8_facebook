@@ -156,8 +156,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compose" id="VN4-Me-Axr">
+                                <rect key="frame" x="0.0" y="64" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ePe-P3-37g">
-                                <rect key="frame" x="0.0" y="64" width="320" height="501"/>
+                                <rect key="frame" x="0.0" y="110" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_feed" id="zSd-jL-qGh">
@@ -299,6 +303,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="compose" width="320" height="46"/>
         <image name="feed_tab" width="27" height="27"/>
         <image name="home_feed" width="320" height="1025"/>
         <image name="messages" width="320" height="460"/>
